@@ -1,9 +1,11 @@
 ---
 title: "Differential Expression and Visualization in R"
-author: 
-  - Taylor Reiter
-  - N. Tessa Pierce
-output: html_document
+author:
+- Taylor Reiter
+- N. Tessa Pierce
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -236,6 +238,11 @@ head(res_lfc)
 ```{r, echo= F}
 kableExtra::kable(head(res_lfc))  %>%
   kable_styling()
+```
+
+Let's write out our results to a .csv file:
+```{r, echo=F}
+write.csv(res, file='results.csv')
 ```
 
 ## Visualization of RNA-seq and Differential Expression Results
