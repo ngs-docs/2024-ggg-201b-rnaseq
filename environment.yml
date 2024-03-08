@@ -1,0 +1,21 @@
+name: 2024-ggg-201b-rnaseq
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - r-ggplot2
+    - r-dplyr
+    - r-readr
+    - r-pheatmap
+    - r-knitr
+    - r-rmarkdown
+    - r-rsqlite
+    - r-data.table
+    - r-kableextra
+    - bioconductor-tximeta
+    - bioconductor-deseq2
+    - bioconductor-summarizedexperiment
+    - r-base
+    - r-devtools
+    - openssh
