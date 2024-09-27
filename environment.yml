@@ -18,4 +18,5 @@ dependencies:
     - bioconductor-summarizedexperiment
     - r-base
     - r-devtools
-    - openssh
+    - snakemake-minimal
+    - salmon

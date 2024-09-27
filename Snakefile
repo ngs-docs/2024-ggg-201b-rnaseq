@@ -1,7 +1,7 @@
 sample_links = {"ERR458493": "https://osf.io/5daup/download",
-                "ERR458494":"https://osf.io/8rvh5/download",
-                "ERR458495":"https://osf.io/2wvn3/download",
-                "ERR458500":"https://osf.io/xju4a/download",
+                "ERR458494": "https://osf.io/8rvh5/download",
+                "ERR458495": "https://osf.io/2wvn3/download",
+                "ERR458500": "https://osf.io/xju4a/download",
                 "ERR458501": "https://osf.io/nmqe6/download",
                 "ERR458502": "https://osf.io/qfsze/download"}
 
